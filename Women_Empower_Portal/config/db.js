@@ -3,6 +3,9 @@ const config = require("config");
 const db = config.get('mongoURI');
 
 //gives back a promise
+
+
+
 const connectDB = async () => {
     try {
         //returns a promise
